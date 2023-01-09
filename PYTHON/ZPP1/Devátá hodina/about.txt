@@ -1,0 +1,16 @@
+Jde o to, že v této hodině jsme se bavili o rozdílech mezi iteračním kodem, 
+rekurzivním a koncově rekurzivním, což je něco mezi rekurzivním a iteračním.
+
+Iterační je pomocí cyklů
+
+Rekurzivní je ten případ, kdy kod volá sám sebe.
+
+Koncově rekurzivní je speciální případ rekurzívního. Jde o to, že program vrací už 
+rovnou výsledek ne operaci.
+
+
+    - u rekurzivního i u koncově rekurzivního je problém v případě, kdy implementovaný kod není
+      v programovacím jazyku, který nemá patřičnou otimalizaci --> takže například python není vhodný úplně pro tento typ 
+      řešení problému, jelikož povoluje jen vnoření do funkce maximálně 1000x (což neznamená že neexistují problémy, které by stačili 
+      na takové vnoření --> dokonce jich je celá řada)
+    - napříkald taky Lisp je optimalizovaný, takže je v něm daleko příjemnější programovat rekurzivni funkce
